@@ -40,6 +40,18 @@ else
 turn(board)
 end
 end
+
+def play(board)
+  turn(board)
+  turn(board)
+  turn(board)
+  turn(board)
+  turn(board)
+  turn(board)
+  turn(board)
+  turn(board)
+  turn(board)
+end
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
   [0,1,2],
