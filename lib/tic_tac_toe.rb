@@ -27,13 +27,6 @@ def valid_move?(board, index)
   end
 end
 
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-
-def position_taken?(board, index)
-  if board[index] == "X" || board[index] == "O" then return true
-elsif board[index] == " " || board[index] == nil then return false
-end
-end
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
   [0,1,2],
